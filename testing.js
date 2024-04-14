@@ -1,4 +1,5 @@
 // import { RekognitionClient, DetectModerationLabelsCommand } from "@aws-sdk/client-rekognition"; // ES Modules import
+import { AppModule } from './app.module.js';
 import cors from 'cors';
 const accessKeyId = 'AKIA5BIGAZEAMZTZAKN5';
 const secretAccessKey = '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';

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Management</title>
+    <link rel="stylesheet" href="testing.css">
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Post Management</h2>
+        <form id="postForm" method="post" enctype="multipart/form-data">
+            <div class="user-box">
+                <!-- <label for="imageInput">Image (required):</label> -->
+                <input type="file" id="imageInput" name="image" required accept="image/*">
+            </div>
+            <div class="user-box">
+                <input type="text" required>
+                <label>Add a comment</label>
+            </div>
+            <!-- <div> -->
+                <!-- <a><button type="submit"></button>submit</a> -->
+                <button style="background-color: transparent;" type="submit">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Submit</button>
+                <p id="message" style="display: none;"></p>
+            <!-- </div> -->
+            <!-- <div class="post-link-container">
+                <a href="#" id="showAllPosts">Show All Posts</a>
+            </div> -->
+        </form>
+    </div>
+    <!-- <script>var exports = {};</script> -->
+    <!-- <script src="https://unpkg.com/@google-cloud/vision@latest"></script> -->
+    <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-3.100.0.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@aws-sdk/client-rekognition"></script> -->
+    <script type= "module" src="testing.js"></script>
+</body>
+
+</html>

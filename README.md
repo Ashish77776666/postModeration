@@ -2,9 +2,9 @@
 # 🛡️ Post Moderation System
 
 A full-stack content moderation platform that allows users to upload images with descriptions, and automatically detects and flags inappropriate content using **AWS Rekognition**.
+---
 you have to give accessKeyId,secretAccessKey, of aws in testing.js for working this; 
 ---
-
 
 ## 🌐 Live Demo
 

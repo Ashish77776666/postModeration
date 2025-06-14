@@ -24,11 +24,10 @@ you have to give accessKeyId,secretAccessKey, of aws in testing.js for working t
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology            |
+| Layer       | Technology             |
 |-------------|------------------------|
 | Frontend    | HTML, CSS, JavaScript  |
-| Backend     | Node.js / Express.js   |
 | AI/ML API   | AWS Rekognition        |
-| Hosting     | (Optional: Netlify, Render, EC2, etc.)
+| Hosting     | Netlify
 
 

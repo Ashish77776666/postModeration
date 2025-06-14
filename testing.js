@@ -1,8 +1,8 @@
 // import { RekognitionClient, DetectModerationLabelsCommand } from "@aws-sdk/client-rekognition"; // ES Modules import
 import { AppModule } from './app.module.js';
 // import cors from 'cors';
-const accessKeyId = '';
-const secretAccessKey = '';
+const accessKeyId = 'AKIA5BIGAZEAIHHI47X5';
+const secretAccessKey = 'DXMYpUwOHlEJwkrUFLX/nvE7SS2bKgVDV2TynSQ8';
 const region = 'us-east-1'; // Update if your region is different
 const client = new RekognitionClient({
     credentials: {
